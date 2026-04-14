@@ -1,0 +1,16 @@
+{
+  "name": "100-Day Household Nutrition Plan",
+  "short_name": "Nutrition",
+  "description": "Her & Him · Fresh Indian Food daily nutrition plan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fbbf24",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
