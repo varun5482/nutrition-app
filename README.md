@@ -1,16 +1,49 @@
-# React + Vite
+# Nutrition App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + Vite single-page app for a 100-day household nutrition plan. The app provides a clear daily meal plan, weekly prep guidance, recipes, and grocery checklist features for two people.
 
-Currently, two official plugins are available:
+## What this app includes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React with Vite for fast local development and production builds
+- Tailwind CSS for styling
+- Radix UI components for accessible tabs, accordions, checkboxes, and progress bars
+- Framer Motion for smooth UI transitions
+- Local storage support for saving checklist state
 
-## React Compiler
+## Key features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Daily plan navigation by weekday and meal type
+- Sunday meal prep overview
+- Recipe and grocery planning sections
+- Mobile-first layout with fixed bottom navigation on small screens
+- Clean, polished UI designed for the nutrition plan
 
-## Expanding the ESLint configuration
+## Local development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Vercel deployment
+
+This project is ready for deployment to Vercel.
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Fallback routing is configured so client-side routes resolve to `index.html`
+
+## Project structure
+
+- `src/` - application source files
+- `public/` - static assets
+- `vite.config.js` - Vite configuration
+- `vercel.json` - Vercel deployment settings
